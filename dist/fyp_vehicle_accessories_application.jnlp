@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="fyp_vehicle_accessories_application.jnlp">
+  <information>
+    <title>fyp_vehicle_accessories_application</title>
+    <vendor>Tee Zhuo Xuan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="fyp_vehicle_accessories_application.jar" size="41132" download="eager" />
+    <jar href="lib\FastInfoset-1.2.15.jar" size="311876" download="eager" />
+    <jar href="lib\antlr-2.7.7.jar" size="445288" download="eager" />
+    <jar href="lib\bcprov-jdk15on-1.68.jar" size="5961178" download="eager" />
+    <jar href="lib\byte-buddy-1.12.9.jar" size="3836810" download="eager" />
+    <jar href="lib\classmate-1.5.1.jar" size="67815" download="eager" />
+    <jar href="lib\commons-beanutils-1.9.4.jar" size="246918" download="eager" />
+    <jar href="lib\commons-codec-1.8.jar" size="263865" download="eager" />
+    <jar href="lib\commons-codec-20041127.091804.jar" size="43004" download="eager" />
+    <jar href="lib\commons-collections-3.2.2.jar" size="588337" download="eager" />
+    <jar href="lib\commons-collections4-4.2.jar" size="752798" download="eager" />
+    <jar href="lib\commons-digester-2.1.jar" size="196768" download="eager" />
+    <jar href="lib\commons-logging-1.1.1.jar" size="60686" download="eager" />
+    <jar href="lib\ecj-3.21.0.jar" size="2989263" download="eager" />
+    <jar href="lib\hibernate-commons-annotations-5.1.2.Final.jar" size="78948" download="eager" />
+    <jar href="lib\hibernate-core-5.6.8.Final.jar" size="7477601" download="eager" />
+    <jar href="lib\istack-commons-runtime-3.0.7.jar" size="25523" download="eager" />
+    <jar href="lib\itext-2.1.7.js9.jar" size="1131549" download="eager" />
+    <jar href="lib\jackson-annotations-2.13.1.jar" size="75717" download="eager" />
+    <jar href="lib\jackson-core-2.13.1.jar" size="374588" download="eager" />
+    <jar href="lib\jackson-databind-2.13.1.jar" size="1534017" download="eager" />
+    <jar href="lib\jackson-dataformat-xml-2.13.1.jar" size="122301" download="eager" />
+    <jar href="lib\jandex-2.4.2.Final.jar" size="230776" download="eager" />
+    <jar href="lib\jasperreports-6.19.1.jar" size="5628350" download="eager" />
+    <jar href="lib\javax.activation-api-1.2.0.jar" size="56674" download="eager" />
+    <jar href="lib\javax.persistence-api-2.2.jar" size="164556" download="eager" />
+    <jar href="lib\jaxb-api-2.3.1.jar" size="128076" download="eager" />
+    <jar href="lib\jaxb-runtime-2.3.1.jar" size="1093432" download="eager" />
+    <jar href="lib\jboss-logging-3.4.3.Final.jar" size="60782" download="eager" />
+    <jar href="lib\jboss-transaction-api_1.2_spec-1.1.1.Final.jar" size="26290" download="eager" />
+    <jar href="lib\jcommon-1.0.23.jar" size="330246" download="eager" />
+    <jar href="lib\jfreechart-1.0.19.jar" size="1565065" download="eager" />
+    <jar href="lib\junit-3.8.1.jar" size="121070" download="eager" />
+    <jar href="lib\mssql-jdbc-10.2.0.jre8.jar" size="1393721" download="eager" />
+    <jar href="lib\spring-beans-5.3.16.jar" size="698018" download="eager" />
+    <jar href="lib\spring-core-5.3.16.jar" size="1475741" download="eager" />
+    <jar href="lib\spring-jcl-5.3.16.jar" size="24439" download="eager" />
+    <jar href="lib\spring-jdbc-5.3.16.jar" size="428021" download="eager" />
+    <jar href="lib\spring-tx-5.3.16.jar" size="333446" download="eager" />
+    <jar href="lib\stax-ex-1.8.jar" size="36073" download="eager" />
+    <jar href="lib\stax2-api-4.2.1.jar" size="195909" download="eager" />
+    <jar href="lib\system-data-2.1.jar" size="192492" download="eager" />
+    <jar href="lib\txw2-2.3.1.jar" size="70288" download="eager" />
+    <jar href="lib\woodstox-core-6.2.7.jar" size="1584634" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="ExperimentArea.SwitchSceneDemo.Main"  name="fyp_vehicle_accessories_application" />
+  <update check="always"/>
+</jnlp>
