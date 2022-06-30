@@ -4,10 +4,20 @@
  */
 package Entity;
 
+import java.sql.Date;
+
 /**
  *
  * @author Tee Zhuo Xuan
  */
 public class Item {
 
+    private Product product;
+    private String remark;
+    private int qty;
+    private double unitPrice;
+    private Date dlvrDate;
+    private double exclTaxAmt;
+    private double discAmt;
+    private double inclTaxAmt;
 }

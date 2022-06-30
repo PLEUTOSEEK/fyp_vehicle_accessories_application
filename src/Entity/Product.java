@@ -8,11 +8,15 @@ package Entity;
  *
  * @author Tee Zhuo Xuan
  */
-public class Place {
+class Product {
 
-    private String code;
-    private String name;
-    private Address placeAddr;
-    private String description;
+    private String prodCode;
+    private String prodName;
+    private String partNo;
+    private String Description;
+    private String color;
+    private int qtyInStock;
+    private double sellPrice;
+    private double MSRP;
 
 }

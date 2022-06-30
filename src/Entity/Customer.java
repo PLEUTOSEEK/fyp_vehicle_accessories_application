@@ -4,10 +4,21 @@
  */
 package Entity;
 
+import java.sql.Date;
+import java.util.List;
+
 /**
  *
  * @author Tee Zhuo Xuan
  */
 public class Customer extends Person {
 
+    private String custID;
+    private String bankAccProvider;
+    private String bankAccNo;
+    private Address billToAddr;
+    private List<DeliverTo> dlvrAddrs;
+    private String custType; // organization or personal
+    private Date createdDate;
+    private Date modifiedDate;
 }

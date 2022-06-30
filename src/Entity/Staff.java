@@ -4,10 +4,20 @@
  */
 package Entity;
 
+import java.sql.Date;
+
 /**
  *
  * @author Tee Zhuo Xuan
  */
 public class Staff extends Person {
+
+    private String staffID;
+    private Place workPlace; // or department
+    private Date entryDate; // or join date, when he start to work within this company
+    private Date createdDate;
+    private Date modifiedDate;
+    private Staff reportTo;
+    private String empType; // full/ part time
 
 }

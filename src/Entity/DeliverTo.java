@@ -8,11 +8,8 @@ package Entity;
  *
  * @author Tee Zhuo Xuan
  */
-public class Place {
+class DeliverTo {
 
-    private String code;
-    private String name;
-    private Address placeAddr;
-    private String description;
-
+    private Person deliverToCust;
+    private Address addr;
 }

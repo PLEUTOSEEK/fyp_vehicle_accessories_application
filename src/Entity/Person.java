@@ -4,13 +4,25 @@
  */
 package Entity;
 
+import java.sql.Date;
+
 /**
  *
  * @author Tee Zhuo Xuan
  */
 public class Person {
 
-    private String ID;
-    private String name;
-    private Contact contact;
+    protected byte[] avatarImg;
+    protected String name;
+    protected String gender;
+    protected Date DOB; // date of birth
+    protected String maritalStatus;
+    protected String nationality;
+    protected String IC;
+    protected String honorifics;
+    protected Address residentialAddr; // or permanent address
+    protected Address corAddr; // corresponding address
+    protected Contact contact;
+    protected String occupation;
+
 }
