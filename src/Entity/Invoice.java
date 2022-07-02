@@ -4,6 +4,7 @@
  */
 package Entity;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -16,10 +17,10 @@ public class Invoice<T> extends Document {
     private String referenceType; // understand the refernce is belong to what type of source document
     private T reference;
     private List<Item> items;
-    private double gross;
-    private double discount;
-    private double subTotal;
-    private double ttlPayable;
+    private BigDecimal gross;
+    private BigDecimal discount;
+    private BigDecimal subTotal;
+    private BigDecimal ttlPayable;
     private Staff issuedBy;
     private Staff releasedAVerifiedBy;
     private Customer customerSignature;

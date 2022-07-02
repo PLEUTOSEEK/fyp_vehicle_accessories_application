@@ -8,7 +8,7 @@ package Entity;
  *
  * @author Tee Zhuo Xuan
  */
-public class Inventory {
+public class Inventory extends Entity {
 
     private Place storePlace;
     private Product product;

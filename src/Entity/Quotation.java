@@ -4,6 +4,7 @@
  */
 package Entity;
 
+import java.math.BigDecimal;
 import java.sql.Date;
 import java.util.List;
 
@@ -14,17 +15,17 @@ public class Quotation<T> extends Document {
     private T reference;
     private Customer billToCust;
     private Customer deliverToCust;
+    private Staff salesPerson;
     private String currencyCode;
     private Date quotValidityDate; // Valid Until
     private Date requiredDeliveryDate;
     private String pymtTerm;
     private String shipmentTerm;
-    private Staff salesPerson;
     private List<Item> items;
-    private double gross;
-    private double discount;
-    private double subTotal;
-    private double nett;
+    private BigDecimal gross;
+    private BigDecimal discount;
+    private BigDecimal subTotal;
+    private BigDecimal nett;
     private Staff issuedBy;
     private Staff releasedAVerifiedBy;
     private Customer customerSignature;

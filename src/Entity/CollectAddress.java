@@ -8,7 +8,7 @@ package Entity;
  *
  * @author Tee Zhuo Xuan
  */
-class DeliverTo {
+class CollectAddress extends Entity {
 
     private Person deliverToCust;
     private Address addr;

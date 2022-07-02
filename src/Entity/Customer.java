@@ -4,7 +4,6 @@
  */
 package Entity;
 
-import java.sql.Date;
 import java.util.List;
 
 /**
@@ -17,8 +16,6 @@ public class Customer extends Person {
     private String bankAccProvider;
     private String bankAccNo;
     private Address billToAddr;
-    private List<DeliverTo> dlvrAddrs;
+    private List<CollectAddress> dlvrAddrs;
     private String custType; // organization or personal
-    private Date createdDate;
-    private Date modifiedDate;
 }

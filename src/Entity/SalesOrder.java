@@ -4,6 +4,7 @@
  */
 package Entity;
 
+import java.math.BigDecimal;
 import java.sql.Date;
 import java.util.List;
 
@@ -19,16 +20,16 @@ public class SalesOrder<T> extends Document {
     private Quotation quotRef;
     private String referenceType; // understand the refernce is belong to what type of source document
     private T reference; // quotation source document
+    private Staff salesPerson;
     private String currencyCode;
     private Date requiredDeliveryDate;
     private String pymtTerm;
     private String shipmentTerm;
-    private Staff salesPerson;
     private List<Item> items;
-    private double gross;
-    private double discount;
-    private double subTotal;
-    private double nett;
+    private BigDecimal gross;
+    private BigDecimal discount;
+    private BigDecimal subTotal;
+    private BigDecimal nett;
     private Staff issuedBy;
     private Staff releasedAVerifiedBy;
     private Customer customerSignature;

@@ -4,6 +4,7 @@
  */
 package Entity;
 
+import java.math.BigDecimal;
 import java.sql.Date;
 import java.util.List;
 
@@ -23,9 +24,9 @@ public class CustomerInquiry<T> extends Document {
     private String shipmentTerm;
     private Staff salesPerson;
     private List<Item> items;
-    private double gross;
-    private double discount;
-    private double subTotal;
-    private double nett;
+    private BigDecimal gross;
+    private BigDecimal discount;
+    private BigDecimal subTotal;
+    private BigDecimal nett;
     private Staff issuedBy;
 }

@@ -4,17 +4,15 @@
  */
 package Entity;
 
+import java.sql.Date;
+import java.sql.Timestamp;
+
 /**
  *
  * @author Tee Zhuo Xuan
  */
-public class Address {
+public class Entity {
 
-    private String locationName;
-    private String address;
-    private String city;
-    private String postalCode;
-    private String state;
-    private String country;
-
+    protected Date createdDate;
+    protected Timestamp modifiedDateTime;
 }

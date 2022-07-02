@@ -4,19 +4,17 @@
  */
 package Entity;
 
-import java.sql.Date;
 import java.sql.Timestamp;
 
 /**
  *
  * @author Tee Zhuo Xuan
  */
-public class Document {
+public class Document extends Entity {
 
     protected String code;
     protected Timestamp actualCreatedDateTime;
-    protected Date createdDate;
     protected byte[] signedDocPic;
     protected String status;
-    protected Timestamp modifiedDateTime;
+
 }

@@ -8,7 +8,7 @@ package Entity;
  *
  * @author Tee Zhuo Xuan
  */
-class Product {
+class Product extends Entity {
 
     private String prodCode;
     private String prodName;
