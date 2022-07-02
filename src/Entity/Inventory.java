@@ -10,6 +10,7 @@ package Entity;
  */
 public class Inventory extends Entity {
 
+    private String inventoryID;
     private Place storePlace;
     private Product product;
     private int reservedQty;

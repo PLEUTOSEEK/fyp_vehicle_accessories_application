@@ -13,6 +13,7 @@ import java.sql.Date;
 public class Item {
 
     private Product product;
+    private Inventory inventory;
     private String remark;
     private int qty;
     private double unitPrice;

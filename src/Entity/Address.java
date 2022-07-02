@@ -10,6 +10,7 @@ package Entity;
  */
 public class Address extends Entity {
 
+    private String addressID;
     private String locationName;
     private String address;
     private String city;

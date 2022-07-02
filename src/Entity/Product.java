@@ -10,7 +10,7 @@ package Entity;
  */
 class Product extends Entity {
 
-    private String prodCode;
+    private String prodID;
     private String prodName;
     private String partNo;
     private String Description;
