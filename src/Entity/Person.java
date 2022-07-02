@@ -24,5 +24,6 @@ public class Person {
     protected Address corAddr; // corresponding address
     protected Contact contact;
     protected String occupation;
-
+    protected String race;
+    protected String religion;
 }

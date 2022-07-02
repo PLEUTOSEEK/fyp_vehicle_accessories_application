@@ -4,10 +4,28 @@
  */
 package Entity;
 
+import java.sql.Date;
+import java.util.List;
+
 /**
  *
  * @author Tee Zhuo Xuan
  */
-public class CustomerInquiry {
+public class CustomerInquiry<T> extends Document {
 
+    private String referenceType;
+    private T reference;
+    private Customer billToCust;
+    private Customer deliverToCust;
+    private String currencyCode;
+    private Date requiredDeliveryDate;
+    private String pymtTerm;
+    private String shipmentTerm;
+    private Staff salesPerson;
+    private List<Item> items;
+    private double gross;
+    private double discount;
+    private double subTotal;
+    private double nett;
+    private Staff issuedBy;
 }

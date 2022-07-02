@@ -7,15 +7,15 @@ package Entity;
 import java.sql.Date;
 import java.util.List;
 
-public class Quotation extends Document {
+public class Quotation<T> extends Document {
 
-    private String reference;
+    private CustomerInquiry CI;
+    private String referenceType;
+    private T reference;
     private Customer billToCust;
-    private Address billToAddr;
-    private String receiveCustName;
-    private Address deliveryAddr;
+    private Customer deliverToCust;
     private String currencyCode;
-    private Date validUntil;
+    private Date quotValidityDate; // Valid Until
     private Date requiredDeliveryDate;
     private String pymtTerm;
     private String shipmentTerm;

@@ -8,14 +8,12 @@ package Entity;
  *
  * @author Tee Zhuo Xuan
  */
-class Product {
+public class Inventory {
 
-    private String prodCode;
-    private String prodName;
-    private String partNo;
-    private String Description;
-    private String color;
-    private double sellPrice;
-    private double MSRP;
+    private Place storePlace;
+    private Product product;
+    private int reservedQty;
+    private int readyQty;
+    private int ttlQty;
 
 }

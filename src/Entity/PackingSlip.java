@@ -13,8 +13,6 @@ import java.util.List;
 public class PackingSlip extends Document {
 
     private Staff PIC;
-    private SalesOrder SO;
     private TransferOrder TO;
     private List<Item> items;
-
 }

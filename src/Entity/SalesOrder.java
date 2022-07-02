@@ -11,13 +11,14 @@ import java.util.List;
  *
  * @author Tee Zhuo Xuan
  */
-public class SalesOrder extends Document {
+public class SalesOrder<T> extends Document {
 
     private Customer billToCust;
     private Customer deliverToCust;
     private String custPOReference;
+    private Quotation quotRef;
     private String referenceType; // understand the refernce is belong to what type of source document
-    private String reference;
+    private T reference; // quotation source document
     private String currencyCode;
     private Date requiredDeliveryDate;
     private String pymtTerm;
