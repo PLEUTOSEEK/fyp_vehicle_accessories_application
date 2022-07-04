@@ -18,4 +18,8 @@ public class Customer extends Person {
     private Address billToAddr;
     private List<CollectAddress> dlvrAddrs;
     private String custType; // organization or personal
+
+    public Customer() {
+    }
+
 }

@@ -17,5 +17,6 @@ public class Staff extends Person {
     private Date entryDate; // or join date, when he start to work within this company
     private Staff reportTo;
     private String empType; // full/ part time
+    private String password;
 
 }

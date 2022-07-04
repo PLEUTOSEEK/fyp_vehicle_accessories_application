@@ -29,4 +29,8 @@ public class CustomerInquiry<T> extends Document {
     private BigDecimal subTotal;
     private BigDecimal nett;
     private Staff issuedBy;
+
+    public CustomerInquiry() {
+    }
+
 }

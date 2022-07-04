@@ -26,4 +26,5 @@ public class Person extends Entity {
     protected String occupation;
     protected String race;
     protected String religion;
+    protected String Status;
 }

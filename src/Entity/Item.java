@@ -4,6 +4,7 @@
  */
 package Entity;
 
+import java.math.BigDecimal;
 import java.sql.Date;
 
 /**
@@ -16,9 +17,9 @@ public class Item {
     private Inventory inventory;
     private String remark;
     private int qty;
-    private double unitPrice;
+    private BigDecimal unitPrice;
     private Date dlvrDate;
-    private double exclTaxAmt;
-    private double discAmt;
-    private double inclTaxAmt;
+    private BigDecimal exclTaxAmt;
+    private BigDecimal discAmt;
+    private BigDecimal inclTaxAmt;
 }
