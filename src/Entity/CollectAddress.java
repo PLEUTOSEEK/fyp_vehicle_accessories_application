@@ -8,8 +8,34 @@ package Entity;
  *
  * @author Tee Zhuo Xuan
  */
-class CollectAddress extends Entity {
+public class CollectAddress extends Entity {
 
+    private String collectAddrID;
     private Person deliverToCust;
     private Address addr;
+
+    public String getCollectAddrID() {
+        return collectAddrID;
+    }
+
+    public void setCollectAddrID(String collectAddrID) {
+        this.collectAddrID = collectAddrID;
+    }
+
+    public Person getDeliverToCust() {
+        return deliverToCust;
+    }
+
+    public void setDeliverToCust(Person deliverToCust) {
+        this.deliverToCust = deliverToCust;
+    }
+
+    public Address getAddr() {
+        return addr;
+    }
+
+    public void setAddr(Address addr) {
+        this.addr = addr;
+    }
+
 }
