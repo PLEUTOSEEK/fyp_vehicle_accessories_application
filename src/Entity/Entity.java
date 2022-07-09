@@ -4,7 +4,6 @@
  */
 package Entity;
 
-import java.sql.Date;
 import java.sql.Timestamp;
 
 /**
@@ -13,6 +12,23 @@ import java.sql.Timestamp;
  */
 public class Entity {
 
-    protected Date createdDate;
+    protected Timestamp createdDateTime;
     protected Timestamp modifiedDateTime;
+
+    public Timestamp getCreatedDate() {
+        return createdDateTime;
+    }
+
+    public void setCreatedDate(Timestamp createdDateTime) {
+        this.createdDateTime = createdDateTime;
+    }
+
+    public Timestamp getModifiedDateTime() {
+        return modifiedDateTime;
+    }
+
+    public void setModifiedDateTime(Timestamp modifiedDateTime) {
+        this.modifiedDateTime = modifiedDateTime;
+    }
+
 }

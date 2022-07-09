@@ -12,7 +12,7 @@ import java.util.List;
  * @author Tee Zhuo Xuan
  */
 // multi purpose document
-public class DeliveryOrder<T> extends Document {
+public class DeliveryOrder extends Document {
 
     private Address companyAddr; // company = Thir Shen
     private Contact companyContact;
@@ -20,7 +20,7 @@ public class DeliveryOrder<T> extends Document {
     private Date deliveryDate;
     private ReturnDeliveryNote RDN;
     private String referenceType; // understand the refernce is belong to what type of source document
-    private T reference;
+    private String reference;
     private List<Item> items;
     private Staff issuedBy;
     private Staff releasedAVerifiedBy;

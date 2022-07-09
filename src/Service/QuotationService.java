@@ -37,7 +37,7 @@ public class QuotationService {
         newIDStruct.setYear(currenMth);
 
         try {
-            String latestID = QuotationDAO.getLatestID();
+            String latestID = QuotationDAO.getLatestCode();
 
             if (latestID != "") {
                 latestIDStruct = CodeStructure.strToStruct(latestID);

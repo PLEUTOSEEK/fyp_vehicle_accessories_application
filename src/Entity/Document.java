@@ -4,7 +4,6 @@
  */
 package Entity;
 
-import java.sql.Date;
 import java.sql.Timestamp;
 
 /**
@@ -48,22 +47,6 @@ public class Document extends Entity {
 
     public void setStatus(String status) {
         this.status = status;
-    }
-
-    public Date getCreatedDate() {
-        return createdDate;
-    }
-
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public Timestamp getModifiedDateTime() {
-        return modifiedDateTime;
-    }
-
-    public void setModifiedDateTime(Timestamp modifiedDateTime) {
-        this.modifiedDateTime = modifiedDateTime;
     }
 
 }

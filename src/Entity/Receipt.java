@@ -11,11 +11,11 @@ import java.util.List;
  *
  * @author Tee Zhuo Xuan
  */
-public class Receipt<T> extends Document {
+public class Receipt extends Document {
 
     private Invoice INV;
     private String referenceType; // understand the refernce is belong to what type of source document
-    private T reference;
+    private String reference;
     private List<Item> items;
     private BigDecimal ttlPayable;
     private BigDecimal paidAmt;

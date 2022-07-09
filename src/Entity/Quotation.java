@@ -9,11 +9,11 @@ import java.sql.Date;
 import java.sql.Timestamp;
 import java.util.List;
 
-public class Quotation<T> extends Document {
+public class Quotation extends Document {
 
     private CustomerInquiry CI;
     private String referenceType;
-    private T reference;
+    private String reference;
     private Customer billToCust;
     private CollectAddress deliverToCust;
     private Staff salesPerson;
@@ -47,11 +47,11 @@ public class Quotation<T> extends Document {
         this.referenceType = referenceType;
     }
 
-    public T getReference() {
+    public String getReference() {
         return reference;
     }
 
-    public void setReference(T reference) {
+    public void setReference(String reference) {
         this.reference = reference;
     }
 
@@ -213,22 +213,6 @@ public class Quotation<T> extends Document {
 
     public void setStatus(String status) {
         this.status = status;
-    }
-
-    public Date getCreatedDate() {
-        return createdDate;
-    }
-
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public Timestamp getModifiedDateTime() {
-        return modifiedDateTime;
-    }
-
-    public void setModifiedDateTime(Timestamp modifiedDateTime) {
-        this.modifiedDateTime = modifiedDateTime;
     }
 
 }

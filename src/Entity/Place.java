@@ -15,4 +15,36 @@ public class Place extends Entity {
     private Address placeAddr;
     private String description;
 
+    public String getPlaceID() {
+        return placeID;
+    }
+
+    public void setPlaceID(String placeID) {
+        this.placeID = placeID;
+    }
+
+    public String getPlaceName() {
+        return placeName;
+    }
+
+    public void setPlaceName(String placeName) {
+        this.placeName = placeName;
+    }
+
+    public Address getPlaceAddr() {
+        return placeAddr;
+    }
+
+    public void setPlaceAddr(Address placeAddr) {
+        this.placeAddr = placeAddr;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
 }
