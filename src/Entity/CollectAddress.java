@@ -11,7 +11,7 @@ package Entity;
 public class CollectAddress extends Entity {
 
     private String collectAddrID;
-    private Person deliverToCust;
+    private Person person;
     private Address addr;
 
     public String getCollectAddrID() {
@@ -22,12 +22,12 @@ public class CollectAddress extends Entity {
         this.collectAddrID = collectAddrID;
     }
 
-    public Person getDeliverToCust() {
-        return deliverToCust;
+    public Person getPerson() {
+        return person;
     }
 
-    public void setDeliverToCust(Person deliverToCust) {
-        this.deliverToCust = deliverToCust;
+    public void setPerson(Person person) {
+        this.person = person;
     }
 
     public Address getAddr() {

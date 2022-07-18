@@ -26,7 +26,7 @@ public class Person extends Entity {
     protected String occupation;
     protected String race;
     protected String religion;
-    protected String Status;
+    protected String status;
 
     public byte[] getAvatarImg() {
         return avatarImg;
@@ -141,11 +141,11 @@ public class Person extends Entity {
     }
 
     public String getStatus() {
-        return Status;
+        return status;
     }
 
     public void setStatus(String Status) {
-        this.Status = Status;
+        this.status = Status;
     }
 
 }

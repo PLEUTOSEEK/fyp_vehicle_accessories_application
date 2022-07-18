@@ -16,7 +16,7 @@ public class Item {
     private Product product;
     private Inventory inventory;
     private String remark;
-    private int qty;
+    private Integer qty;
     private BigDecimal unitPrice;
     private Date dlvrDate;
     private BigDecimal exclTaxAmt;

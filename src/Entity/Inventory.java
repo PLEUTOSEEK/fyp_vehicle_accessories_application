@@ -13,8 +13,8 @@ public class Inventory extends Entity {
     private String inventoryID;
     private Place storePlace;
     private Product product;
-    private int reservedQty;
-    private int readyQty;
-    private int ttlQty;
+    private Integer reservedQty;
+    private Integer readyQty;
+    private Integer ttlQty;
 
 }

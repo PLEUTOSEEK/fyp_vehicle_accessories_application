@@ -27,4 +27,100 @@ public class DeliveryOrder extends Document {
     private Staff deliveryBy;
     private Customer itemReceivedBy;
 
+    public Address getCompanyAddr() {
+        return companyAddr;
+    }
+
+    public void setCompanyAddr(Address companyAddr) {
+        this.companyAddr = companyAddr;
+    }
+
+    public Contact getCompanyContact() {
+        return companyContact;
+    }
+
+    public void setCompanyContact(Contact companyContact) {
+        this.companyContact = companyContact;
+    }
+
+    public SalesOrder getSO() {
+        return SO;
+    }
+
+    public void setSO(SalesOrder SO) {
+        this.SO = SO;
+    }
+
+    public Date getDeliveryDate() {
+        return deliveryDate;
+    }
+
+    public void setDeliveryDate(Date deliveryDate) {
+        this.deliveryDate = deliveryDate;
+    }
+
+    public ReturnDeliveryNote getRDN() {
+        return RDN;
+    }
+
+    public void setRDN(ReturnDeliveryNote RDN) {
+        this.RDN = RDN;
+    }
+
+    public String getReferenceType() {
+        return referenceType;
+    }
+
+    public void setReferenceType(String referenceType) {
+        this.referenceType = referenceType;
+    }
+
+    public String getReference() {
+        return reference;
+    }
+
+    public void setReference(String reference) {
+        this.reference = reference;
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
+    public Staff getIssuedBy() {
+        return issuedBy;
+    }
+
+    public void setIssuedBy(Staff issuedBy) {
+        this.issuedBy = issuedBy;
+    }
+
+    public Staff getReleasedAVerifiedBy() {
+        return releasedAVerifiedBy;
+    }
+
+    public void setReleasedAVerifiedBy(Staff releasedAVerifiedBy) {
+        this.releasedAVerifiedBy = releasedAVerifiedBy;
+    }
+
+    public Staff getDeliveryBy() {
+        return deliveryBy;
+    }
+
+    public void setDeliveryBy(Staff deliveryBy) {
+        this.deliveryBy = deliveryBy;
+    }
+
+    public Customer getItemReceivedBy() {
+        return itemReceivedBy;
+    }
+
+    public void setItemReceivedBy(Customer itemReceivedBy) {
+        this.itemReceivedBy = itemReceivedBy;
+    }
+
 }

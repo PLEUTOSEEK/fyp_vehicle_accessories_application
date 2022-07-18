@@ -4,6 +4,8 @@
  */
 package Entity;
 
+import java.math.BigDecimal;
+
 /**
  *
  * @author Tee Zhuo Xuan
@@ -13,9 +15,9 @@ class Product extends Entity {
     private String prodID;
     private String prodName;
     private String partNo;
-    private String Description;
+    private String description;
     private String color;
-    private double sellPrice;
-    private double MSRP;
+    private BigDecimal sellPrice;
+    private BigDecimal MSRP;
 
 }

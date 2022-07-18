@@ -10,7 +10,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("View/SalesOrder_UI.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("io\\github\\palexdev\\materialfx\\demo\\fxml\\FontResources.fxml"));
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
             primaryStage.show();
