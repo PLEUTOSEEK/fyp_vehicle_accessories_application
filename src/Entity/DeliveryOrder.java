@@ -14,8 +14,7 @@ import java.util.List;
 // multi purpose document
 public class DeliveryOrder extends Document {
 
-    private Address companyAddr; // company = Thir Shen
-    private Contact companyContact;
+    private Place deliverFr; // company = Thir Shen
     private SalesOrder SO;
     private Date deliveryDate;
     private ReturnDeliveryNote RDN;
@@ -27,20 +26,12 @@ public class DeliveryOrder extends Document {
     private Staff deliveryBy;
     private Customer itemReceivedBy;
 
-    public Address getCompanyAddr() {
-        return companyAddr;
+    public Place getDeliverFr() {
+        return deliverFr;
     }
 
-    public void setCompanyAddr(Address companyAddr) {
-        this.companyAddr = companyAddr;
-    }
-
-    public Contact getCompanyContact() {
-        return companyContact;
-    }
-
-    public void setCompanyContact(Contact companyContact) {
-        this.companyContact = companyContact;
+    public void setDeliverFr(Place deliverFr) {
+        this.deliverFr = deliverFr;
     }
 
     public SalesOrder getSO() {

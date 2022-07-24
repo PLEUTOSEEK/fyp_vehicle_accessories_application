@@ -14,8 +14,7 @@ import java.util.List;
 public class ReturnDeliveryNote extends Document {
 
     private SalesOrder SO;
-    private Address companyAddr; // company = Thir Shen
-    private Contact companyContact;
+    private Place collBackTo; // company = Thir Shen
     private CollectAddress collBckFr;
     private Date collectDate;
     private String inspectorMsg;

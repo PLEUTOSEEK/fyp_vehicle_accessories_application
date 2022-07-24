@@ -18,6 +18,7 @@ public class Staff extends Person {
     private Staff reportTo;
     private String empType; // full/ part time
     private String password;
+    private String accountStatus; // haven't put in class diagram
 
     public String getStaffID() {
         return staffID;

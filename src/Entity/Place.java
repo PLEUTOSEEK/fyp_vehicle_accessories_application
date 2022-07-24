@@ -14,6 +14,7 @@ public class Place extends Entity {
     private String placeName;
     private Address placeAddr;
     private String description;
+    private Contact contact;
 
     public String getPlaceID() {
         return placeID;
@@ -45,6 +46,14 @@ public class Place extends Entity {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Contact getContact() {
+        return contact;
+    }
+
+    public void setContact(Contact contact) {
+        this.contact = contact;
     }
 
 }

@@ -4,7 +4,6 @@
  */
 package DAO;
 
-import Entity.Contact;
 import Entity.DeliveryOrder;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -78,12 +77,7 @@ public class DeliveryOrderDAO {
                 deliveryOrder.setRDN(ReturnDeliveryNoteDAO.getReturnDeliveryNoteByCode(rs.getString("DO_RDN_ID")));
                 deliveryOrder.setReferenceType(rs.getString("DO_Reference_Type"));
                 deliveryOrder.setReference(rs.getString("DO_Reference"));
-                deliveryOrder.setCompanyAddr(AddressDAO.getAddressByID(rs.getString("DO_Company_Address_ID")));
-
-                Contact companyContact = new Contact();
-                companyContact.setOffPhNo(rs.getString("DO_Company_Contact_No"));
-                deliveryOrder.setCompanyContact(companyContact);
-
+                deliveryOrder.setDeliverFr(PlaceDAO.getPlaceByID(rs.getString("DO_Company_Address_ID")));
                 deliveryOrder.setDeliveryDate(rs.getDate("DO_Delivery_Date"));
                 deliveryOrder.setIssuedBy(StaffDAO.getStaffByID(rs.getString("DO_Issued_By")));
                 deliveryOrder.setReleasedAVerifiedBy(StaffDAO.getStaffByID(rs.getString("DO_Released_And_Verified_By")));

@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="fyp_vehicle_accessories_application.jar" size="103600" download="eager" />
+    <jar href="fyp_vehicle_accessories_application.jar" size="157652" download="eager" />
     <jar href="lib\FastInfoset-1.2.15.jar" size="311876" download="eager" />
     <jar href="lib\antlr-2.7.7.jar" size="445288" download="eager" />
     <jar href="lib\bcprov-jdk15on-1.68.jar" size="5961178" download="eager" />
@@ -23,6 +23,7 @@
     <jar href="lib\commons-logging-1.1.1.jar" size="60686" download="eager" />
     <jar href="lib\controlsfx-8.40.11.jar" size="985420" download="eager" />
     <jar href="lib\ecj-3.21.0.jar" size="2989263" download="eager" />
+    <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
     <jar href="lib\hibernate-commons-annotations-5.1.2.Final.jar" size="78948" download="eager" />
     <jar href="lib\hibernate-core-5.6.8.Final.jar" size="7477601" download="eager" />
     <jar href="lib\istack-commons-runtime-3.0.7.jar" size="25523" download="eager" />
@@ -43,7 +44,7 @@
     <jar href="lib\jfreechart-1.0.19.jar" size="1565065" download="eager" />
     <jar href="lib\junit-3.8.1.jar" size="121070" download="eager" />
     <jar href="lib\materialfx-11.14.0-EA3.jar" size="3267281" download="eager" />
-    <jar href="lib\mssql-jdbc-10.2.0.jre8.jar" size="1393721" download="eager" />
+    <jar href="lib\mssql-jdbc-10.2.1.jre8.jar" size="1390758" download="eager" />
     <jar href="lib\spring-beans-5.3.16.jar" size="698018" download="eager" />
     <jar href="lib\spring-core-5.3.16.jar" size="1475741" download="eager" />
     <jar href="lib\spring-jcl-5.3.16.jar" size="24439" download="eager" />

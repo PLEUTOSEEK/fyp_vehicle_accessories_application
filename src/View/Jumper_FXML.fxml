@@ -51,7 +51,8 @@
                               <StackPane prefHeight="515.0" prefWidth="527.0" styleClass="grid-background" GridPane.columnSpan="2147483647" GridPane.rowSpan="2147483647">
                                  <GridPane.margin>
                                     <Insets left="10.0" />
-                                 </GridPane.margin></StackPane>
+                                 </GridPane.margin>
+                              </StackPane>
                               <Label styleClass="small-label" stylesheets="@../../css/labels.css" text="Employee Information" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.valignment="CENTER">
                                  <GridPane.margin>
                                     <Insets left="10.0" />
@@ -108,6 +109,19 @@
                                     <Insets left="10.0" />
                                  </GridPane.margin>
                               </MFXDatePicker>
+                              <MFXComboBox alignment="CENTER_RIGHT" allowEdit="true" floatingText="Role" minHeight="47.0" minWidth="200.0" prefHeight="47.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding>
+                                 <GridPane.margin>
+                                    <Insets left="10.0" />
+                                 </GridPane.margin>
+                              </MFXComboBox>
+                              <MFXTextField alignment="CENTER_RIGHT" floatingText="Occupation" prefHeight="49.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets left="10.0" />
+                                 </GridPane.margin>
+                              </MFXTextField>
                            </children>
                         </GridPane>
                      </children>
